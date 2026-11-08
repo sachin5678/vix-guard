@@ -1,0 +1,10 @@
+.env
+state.json
+logs/
+__pycache__/
+*.py[cod]
+.git
+.github
+tests
+*.log
+README.md
