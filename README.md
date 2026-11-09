@@ -297,8 +297,9 @@ a clear conflict message.
 ### GitHub
 
 The private repository lives at
-<https://github.com/sachinpatilgit/vix-guard>. The local clone already has
-`origin` configured, so publishing a change is:
+<https://github.com/sachinpatilgit/vix-guard> and the public mirror at
+<https://github.com/sachin5678/vix-guard>. The local clone has `origin`
+configured for the private repository, so publishing a change is:
 
 ```bash
 git push
