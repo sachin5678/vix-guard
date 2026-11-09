@@ -294,21 +294,14 @@ sudo journalctl -u vix-guard -f
 Only one instance may poll a bot token at a time. A second instance exits with
 a clear conflict message.
 
-### Publish to GitHub
+### GitHub
 
-This folder is already a git repository with an initial commit. Create an
-empty repository on GitHub, then:
-
-```bash
-git remote add origin https://github.com/sachin5678/vix-guard.git
-git push -u origin main
-```
-
-Or, with the GitHub CLI installed:
+The private repository lives at
+<https://github.com/sachinpatilgit/vix-guard>. The local clone already has
+`origin` configured, so publishing a change is:
 
 ```bash
-gh auth login
-gh repo create vix-guard --private --source . --remote origin --push
+git push
 ```
 
 ### Docker
